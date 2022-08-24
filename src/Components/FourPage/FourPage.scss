@@ -1,0 +1,66 @@
+@media screen and (max-width: 1023px) {
+  .four {
+    width: 100%;
+    height: auto;
+
+    &-base {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      padding: 0px 0px 0px;
+      &-title {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        color: #ff5c70;
+        &-text {
+        }
+      }
+      &-content {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        color: #ffffff;
+        &-info {
+          width: 50%;
+          h3 {
+            background: radial-gradient(
+                297.69% 631.22% at 8.87% -31.02%,
+                #ff1167 0%,
+                #750000 100%
+              )
+              /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 18px;
+            font-size: 15px;
+            font-weight: 100;
+          }
+        }
+        &-text {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          text-align: center;
+          width: 50%;
+          color: #e72755;
+        }
+        &-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &-png {
+            width: 100%;
+            min-width: 600px;
+            max-width: 600px;
+          }
+        }
+      }
+    }
+  }
+}
